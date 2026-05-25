@@ -1,0 +1,23 @@
+@import "@fontsource-variable/geist";
+
+:root {
+	color: #e2e8f0;
+	background: #02050a;
+	font-family: 'Geist Variable', sans-serif;
+}
+
+html,
+body,
+#root {
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+	background:
+		radial-gradient(circle at top, rgba(245, 158, 11, 0.12), transparent 35%),
+		linear-gradient(180deg, #08111f 0%, #050914 55%, #02050a 100%);
+	color: #e2e8f0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
