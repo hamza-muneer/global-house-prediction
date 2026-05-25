@@ -16,3 +16,7 @@ backend/**/__pycache__/
 frontend/dist/
 dist/
 *.log
+# Ignore heavy ML model binaries
+backend/ml/trained/pipe.pkl
+*.pkl
+*.pickle
